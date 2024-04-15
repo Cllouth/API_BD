@@ -1,5 +1,4 @@
 const app = require('./app');
-const port = app.get('port');
+const PORT = app.get('port');
 
-app.listen(port, () => console.log(`rodando na porta ${port1}`));
-
+app.listen(PORT, () => console.log(`rodando na porta ${PORT}`));
